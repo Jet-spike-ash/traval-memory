@@ -1,0 +1,1 @@
+import{h as r}from"./userStore-Dz1nB0sk.js";import"./index-vS3kw3O5.js";const s={getCompanions(e){return r.get(`/companions?user_id=${e}`).then(t=>t.data)},getUser(e){return r.get(`/users/${e}`).then(t=>t.data)},getMemories(e){return r.get(`/memories?user_id=${e}`).then(t=>t.data)}};export{s as companionAPI};
